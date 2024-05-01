@@ -1,0 +1,194 @@
+/*External CSS*
+
+/*Home*/
+body{
+	background-color: white;
+	font-family: Century Gothic;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+div.wrapper{
+	background-color: white;
+	width: 1000px;
+	margin: 0 auto;
+	padding: 20px;
+	border-top: 10px solid lightblue;
+	border-bottom: 10px solid lightblue;
+
+}
+div.header{
+	padding: 5px;/* Adjust the padding as needed */
+}
+div.header img{
+	width: 1000px;
+	height: 250px;
+}
+div.nav{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+div.nav ul{
+	margin: 0;
+	padding: 10px 0;
+}
+div.nav ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+div.nav ul li a{
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-right: 10px;
+	padding: 10px;
+}
+div.nav ul li a.active{
+	color: black;
+}
+div.nav ul li a:hover{
+	background-color: lightblue;
+	color: white;
+}
+div.banner, div.banner img{
+	width: 1000px;
+	height: 400px;
+}
+div.main{
+	min-height: 500px;
+}
+div.left-side-bar{
+	width: 190px;
+	float: left;
+	border: 1px solid black;
+	min-height: 50px;
+	margin: 10px 10px 10px 0;
+}
+div.left-side-bar h2{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+	color: darkblue;
+}
+div.left-side-bar ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+div.left-side-bar ul li{
+	margin: 0;
+	text-align: center;
+	border-bottom: 1px solid white;
+}
+div.left-side-bar ul li a{
+	display: block;
+	width: 100%;
+	padding: 5px 0;
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+	background-color: powderblue;
+}
+div.left-side-bar ul li a:hover{
+	color: royalblue;
+}
+div.content{
+	width: 550px;
+	float: left;
+	min-height: 500px;
+	margin: 10px;
+}
+div.content img{
+	width: 300px;
+	height: 200px;
+}
+div.content h1{
+	padding: 0px;
+	margin: 0px;
+	color: darkblue;
+	font-size: 30px;
+	border-bottom: 1px dotted black;
+}
+div.content h2{
+	color: lightblue;
+	width=300px;
+	height=200px;
+}
+div.content p{
+	text-align: justify;
+	line-height: 1.5;
+	text-indent: 40px;
+}
+
+div.right-side-bar{
+	border: 1px solid black;
+	width: 210px;
+	min-height: 50px;
+	margin: 10px 0 10px 10px;
+	float: right;
+}
+div.right-side-bar ul{
+	margin: 0px;
+	padding: 20px;
+}
+div.right-side-bar ul li{
+	list-style-type: none;
+}
+div.right-side-bar ul li img{
+	width: 100%;
+}
+div.footer{
+	clear: both;
+	border-top: 1px solid black;
+	padding: 10px;
+	text-align: center;
+}
+div.footer p{
+	font-weight: bold;
+}
+div.footer img{
+	margin: 0;
+	padding: 0;
+}
+form{
+	background-color: lightblue;
+	border: 1px solid black;
+	border-radius: 10px;
+	margin: 10px auto;
+	color: white;
+	padding: 50px;
+	width: 500px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+}
+form input{
+	padding: 5px;
+	width: 500px;
+}
+input[type="submit"], input[type="reset"]{
+	background-color: darkblue; 
+	color: #fff; /*white text */
+	padding: 10px 50px;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	max-width: 200px;
+
+}
+input[type="submit"]:hover, input[type="reset"]:hover{
+	background-color: purple;
+	transition: 0.5s ease-in-out;
+}
+select{
+	padding: 10px;
+}
+textarea{
+	resize: none;
+	width: 500px;
+	height: 600px;
+}
+#favColor{
+	padding: 0px;
+}
+
